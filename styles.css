@@ -1,0 +1,464 @@
+body
+{
+	background-image: url("images/bg.jpg");		/*background image*/
+	
+	background-attachment: fixed;
+
+}
+
+header
+{
+	position: fixed;
+	background-image: url(images/bg3.jpg); /*header background image*/
+
+	/*background-color: #c88141;*/
+	z-index: 20;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	margin-top: -30px;
+	
+	border: 1px solid gray;
+	box-shadow: 10px 10px 10px gray;
+	
+	margin-right: 2em;
+
+}
+
+header h1{
+
+	color: white;
+	font-size: 5em;
+	font-weight: 30px;
+	text-shadow: 3px 3px 5px #000000;
+}
+
+header h2{
+
+margin-top: -60px;
+color:black;
+text-shadow: 1px 1px 2px white;
+
+}
+
+/*summary scetion*/
+.summary
+{
+	
+	margin-left: 2em;
+	opacity: 0.9;
+	margin-top: 400px;
+	height:300px;
+	width: 21%;
+	background-image: url(images/bg11.jpg);
+	box-shadow: 7px 7px 7px gray;				/*shadow effect*/
+	border: 1px solid red;
+	z-index: 10;
+	box-sizing: border-box;
+	border-radius: 100%;		/*circle shape*/
+	border-width: 1px 5px 5px 1px;
+	padding-top: 62px;
+	padding-left: 13px;
+	color:#145A32;
+	font-family: serif;
+	font-size: 1.1em;
+	float: left;
+	
+}
+
+.summary a
+{
+	text-decoration: none;
+	color: brown;
+}
+.summary a:hover
+{
+	color: blue;
+
+}
+
+
+/*The road to enlightenment section*/
+.preamble
+{
+	opacity: 0.9;		/*transparency*/
+	margin-top: 200px;
+	margin-left: 13em;
+	height:300px;
+	width: 65%;
+	background-image: url(images/bg4.jpg);
+	box-shadow: 7px 7px 7px gray;
+	border: 1px solid green;
+	z-index: 10;
+	 box-sizing: border-box;
+	border-radius: 50px 1px 50px 1px;
+	border-width: 1px 5px 5px 1px;			/*bottom and right border thickness*/
+	padding-top: 5px;
+	padding-left: 10px;
+	color:brown;
+	font-family: serif;
+	font-size: 1.2em;
+
+	line-height: 23px;
+	
+}
+
+.preamble h3
+{
+	color: green;
+	text-align: center;
+	font-size:1.5em;
+	text-shadow: 1px 1px 2px yellow;
+}
+
+/*what is this about section*/
+.explanation
+{
+	width: 700px;
+	height: 300px;
+	transform: skew(20deg);
+	background-image: url(images/bg7.jpg);
+	margin-left: 550px;
+	margin-top: 100px;
+	box-shadow:7px 7px 7px gray; 
+	border: 1px solid #196F3D;
+	border-width: 1px 5px 5px 1px;
+	color:#9C640C;
+	font-size: 1.1em;
+	font-family: serif;
+}
+
+.explanation h3
+{
+	color: #196F3D;
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 1px 1px 2px orange;
+	
+}
+
+/*benefits section*/
+.benefits
+{
+	width: 520px;
+	height: 240px;
+	box-shadow: 7px 7px 7px gray;
+	border-radius: 270px / 135px;
+	float: right;
+	background-image: url(images/bg4.jpg);
+	border: 1px solid brown;
+	color: green;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-left: 15px;
+	border-width: 1px 5px 5px 1px;
+	margin-top: 150px;
+
+
+}
+
+.benefits h3
+{
+	margin-top: 2px;
+	margin-left: 210px;
+	font-size: 25px;
+	color: brown;
+	text-shadow: 1px 1px 2px yellow;
+}
+
+/*participation section*/
+
+.participation
+{  
+  width: 650px;
+  height: 400px;
+  margin-left:30px; 
+  margin-top: 100px;
+  border-radius: 50% / 20%;
+  background-image: url(images/bg8.jpg);
+  border: 1px solid #9C640C;
+  border-width: 1px 5px 5px 1px;
+  box-shadow:7px 7px 7px gray; 
+  float: left;
+  opacity: 0.9;
+  font-size: 1.1em;
+  color: #7B241C;
+  opacity: 0.9; 
+}
+
+.participation a
+{
+
+	text-decoration:  none;
+	color: red;
+
+}
+
+
+.participation a:hover
+{
+
+	color: green;
+		
+}
+
+
+.participation h3
+{
+	font-size: 25px;
+	color: #9C640C;
+	text-shadow: 1px 1px 2px orange;
+	text-align: center;	
+	margin-top: 15px;
+}
+
+/*requirements section*/
+
+.requirements
+{
+	float: right;
+	width: 850px;
+	height: 552px;
+	border: 1px solid #cccc00;
+	background-image: url(images/bg9.jpg);
+	box-shadow: 7px 7px 7px gray;
+	border-width: 1px 5px 5px 1px;
+	border-radius: 220px 20px  220px 220px;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+.requirements a
+{
+	text-decoration: none;
+	color: green;
+}
+
+.requirements a:hover
+{
+	text-decoration: none;
+	color: red;
+}
+.requirements h3
+{
+	text-align: center;
+	font-size: 25px;
+	color: #cccc00;
+	text-shadow: 1px 1px 2px black; 
+}
+.requirements p
+{
+	width: 800px;
+	color:#154360;
+	font-size: 1.1em;
+	margin-left: 50px;
+
+}
+
+/*footer section*/
+
+footer
+{
+	float: right;
+	width: 250px;
+	height: 35px;
+	border: 1px solid #154360;
+	background-image: url(images/bg10.jpg);
+	font-size: 20px;
+	border-width: 1px 3px 3px 1px;
+	border-radius: 100px 100px 100px 100px;
+	padding-top: 5px; 
+	text-align: center;
+	box-shadow: 6px 6px 6px gray;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+footer a
+{
+	text-decoration: none;
+}
+footer a:hover
+{
+	color: red;
+}
+
+/*select design section*/
+
+.design-selection
+{
+	float: left;
+	width: 32px;
+    height: 200px;
+    background-image: url(images/bg6.jpg);
+    transition: height 1s;				/*animation height*/	
+    transition: width 1.5s; 			/*animation width*/
+    color: black;
+    border: 1px solid green;
+    box-shadow: 7px 7px 7px gray;
+    margin-top: 100px;
+    line-height: 20px;
+    overflow: hidden;		/*hide nav menu before section hover*/
+}
+
+.design-selection a
+{
+	text-decoration: none;
+	color: green; 
+}
+
+.design-selection a:hover
+{
+	color: red; 
+}
+
+.design-selection nav
+{
+
+	margin-left: 10px;
+	margin-top: -120px;
+	line-height: 30px;
+	font-size: 17px;
+}
+.design-selection nav ul
+{
+	list-style-type: circle;
+
+}
+
+.design-selection h3
+{
+	margin-top: 84px;
+	margin-left: -84px;
+
+	text-align: center;
+	color: black;
+	background-color:#EC7063; 
+	width: 200px;
+	height: 32px;
+	text-shadow: 1px 1px 1px white;
+	transform: rotate(270deg);			/*rotate h3 section 270 deg inside design selection*/ 
+
+}
+.design-selection:hover					/*animation occur*/
+{
+	height: 270px;
+	width: 350px;
+}
+
+
+/*archives section*/
+
+.design-archives
+{
+	clear: both;
+	width: 32px;
+    height: 150px;
+    background-image: url(images/bg6.jpg);
+ 	margin-top: 50px;
+    transition: width 1s;
+    color: black;
+    border: 1px solid green;
+    box-shadow: 7px 7px 7px gray;
+    margin-top: 200px;
+    overflow: hidden;			/*hide nav menu before section hover*/
+
+}
+.design-archives a
+{
+	text-decoration: none;
+	color: green; 
+	text-decoration-style: none;
+	font-family: serif;
+	font-size: 17px;
+
+}
+.design-archives a:hover
+{
+	color: red; 
+}
+
+.design-archives nav
+{
+	margin-left: 10px;
+	margin-top: -100px;
+	line-height: 70px;
+
+}
+.design-archives nav ul
+{
+	list-style-type:circle;
+}
+.design-archives h3
+{
+	margin-top: 65px;
+	margin-left: -84px;
+	text-align: center;
+	color: black;
+	background-color:#EC7063; 
+	width: 200px;
+	height: 32px;
+	width: 200px;
+	text-shadow: 1px 1px 1px white;
+	transform: rotate(270deg);				/*roate h3 section at 270 deg*/
+
+}
+.design-archives:hover					/*animation happen*/
+{
+	width: 200px;
+}
+
+
+/*resources section*/
+
+.zen-resources
+{
+	float: right;
+	height: 150px;
+	width: 32px;
+    overflow: hidden;
+    transition: width 1.5s;
+    background-image: url(images/bg6.jpg);
+    text-align: left;
+    border: 1px solid green;
+    box-shadow:7px 7px 7px gray; 
+    margin-top: -150px;
+}
+.zen-resources:hover
+{
+
+	width: 250px;
+
+}
+.zen-resources a
+{
+	text-decoration: none;
+	color: green;
+}
+.zen-resources a:hover
+{
+	color: red;
+}
+
+.zen-resources h3
+{
+	width: 150px;
+	height: 32px;
+	background-color:#EC7063; 
+	transform: rotate(90deg);   /*roation 90 deg clockwise*/
+	text-align: center;
+	margin-top: 60px;
+	margin-left: -59px;
+
+}
+
+.zen-resources ul
+{
+	margin-top: -100px;
+	list-style-type: circle;
+	line-height: 25px;
+	margin-left: 20px;
+
+}
+
